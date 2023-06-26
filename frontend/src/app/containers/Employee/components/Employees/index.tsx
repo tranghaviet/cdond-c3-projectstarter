@@ -214,6 +214,9 @@ export class Employees extends React.Component<
             <li>
               <a style={this.thirdLevelBreadcrumb}>View & Manage</a>
             </li>
+            <li>
+              <a style={this.thirdLevelBreadcrumb}>Test the Circlr CI</a>
+            </li>
           </Breadcrumb>
 
           <div
@@ -229,7 +232,7 @@ export class Employees extends React.Component<
                   className={`${style.icon} ${style['i-plus']} ${style['margin-right']}`}
                   aria-hidden='true'
                 />
-                Add New Employee
+                Add A New Employee
               </Button>
             </div>
           </div>
